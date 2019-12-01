@@ -1,0 +1,26 @@
+[
+  {
+    "description": "模擬一個POST請求",
+    "request": {
+      "uri": "/gostdemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "這是一個POST請求"
+    }
+  },
+  {
+    "description": "模擬一個帶參數的POST請求",
+    "request": {
+      "uri": "/postwithparam",
+      "method": "post",
+      "forms": {
+        "name": "Danniel",
+        "sex": "man"
+      }
+    },
+    "response": {
+      "text": "Danniel take Post body back!!!"
+    }
+  }
+]

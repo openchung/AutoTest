@@ -1,0 +1,25 @@
+[
+  {
+    "description": "重定向到Google",
+    "request": {
+      "uri": "/redirect"
+    },
+    "redirectTo": "http://www.google.com"
+  },
+  {
+    "description": "重定向到自己的網頁",
+    "request": {
+      "uri": "/redirect/topath"
+    },
+    "redirectTo": "/redirect/new"
+  },
+  {
+    "description": "這是被重定向到的請求",
+    "request": {
+      "uri": "/redirect/new"
+    },
+    "response": {
+      "text": "重定向成功啦!"
+    }
+  }
+]

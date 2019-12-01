@@ -1,0 +1,26 @@
+[
+  {
+    "description": "模擬一個沒有參數的GET請求",
+    "request": {
+      "uri": "/getdemo",
+      "method": "get"
+    },
+    "response": {
+      "text": "這是一個沒有參數的GET請求"
+    }
+  },
+  {
+    "description": "模擬一個帶參數的GET請求",
+    "request": {
+      "uri": "/getwithparam",
+      "method": "get",
+      "queries": {
+        "name": "Danniel",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "我是Danniel!!!"
+    }
+  }
+]

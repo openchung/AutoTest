@@ -1,0 +1,49 @@
+[
+  {
+    "description": "模擬一個會返回cookies訊息的get請求",
+    "request": {
+      "uri": "/getCookies",
+      "method": "get"
+    },
+    "response": {
+      "cookies": {
+        "login": "true"
+      },
+      "text": "Congraduations! Get the cookies successfully"
+    }
+  },
+  {
+    "description": "模擬一個帶cookies訊息的get請求",
+    "request": {
+      "uri": "/get/with/cookies",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "text": "這是一個需要帶cookies訊息才能訪問的get請求"
+    }
+  },
+  {
+    "description": "模擬一個帶cookies訊息的post請求",
+    "request": {
+      "uri": "/post/with/cookies",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "danniel",
+        "age": "18"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "danniel": "success",
+        "status": "1"
+      }
+    }
+  }
+]

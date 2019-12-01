@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AutoTest.iml" filepath="$PROJECT_DIR$/.idea/AutoTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HttpClientTest/HttpClientTest.iml" filepath="$PROJECT_DIR$/HttpClientTest/HttpClientTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringbootDemo/SpringbootDemo.iml" filepath="$PROJECT_DIR$/SpringbootDemo/SpringbootDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Springboot-MybatisDemoWithLogback/SpringbootMybatisDemoWithLogback.iml" filepath="$PROJECT_DIR$/Springboot-MybatisDemoWithLogback/SpringbootMybatisDemoWithLogback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringbootPg/SpringbootPg.iml" filepath="$PROJECT_DIR$/SpringbootPg/SpringbootPg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringbootPgTestCases/SpringbootPgTestCases.iml" filepath="$PROJECT_DIR$/SpringbootPgTestCases/SpringbootPgTestCases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter5/TestNG.iml" filepath="$PROJECT_DIR$/Chapter5/TestNG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestingSurvey/TestingSurvey.iml" filepath="$PROJECT_DIR$/TestingSurvey/TestingSurvey.iml" />
+    </modules>
+  </component>
+</project>

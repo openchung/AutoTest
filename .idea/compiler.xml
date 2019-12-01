@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringbootPgTestCases" />
+        <module name="TestingSurvey" />
+        <module name="HttpClientTest" />
+        <module name="SpringbootMybatisDemoWithLogback" />
+        <module name="SpringbootDemo" />
+        <module name="TestNG" />
+        <module name="SpringbootPg" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AutoTest" target="1.8" />
+      <module name="HttpClientTest" target="1.8" />
+      <module name="SpringbootDemo" target="1.8" />
+      <module name="SpringbootMybatisDemoWithLogback" target="1.8" />
+      <module name="SpringbootPg" target="1.8" />
+      <module name="SpringbootPgTestCases" target="1.8" />
+      <module name="TestingSurvey" target="1.5" />
+      <module name="TestNG" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="HttpClientTest" options="-parameters" />
+      <module name="SpringbootDemo" options="-parameters" />
+      <module name="SpringbootMybatisDemoWithLogback" options="-parameters" />
+      <module name="SpringbootPg" options="-parameters" />
+      <module name="SpringbootPgTestCases" options="-parameters -extdirs D:\TestNG\AutoTest\SpringbootPgTestCases/lib" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="thread" parallel="classes" thread-count="3">
+    <!--
+    tests級別: 不同的test tag下的案例可以在不同的線程下執行
+              相同的test tag下的案例只能用在同一個線程中去執行
+    classes級別: 相同的class tag下的案例在同一個線程中去執行
+    methods級別: 所有用例都可以在不同的線程下去執行
+    thread-count: 代表了最大併發線程數
+    xml文件配置這種方式不能指定線程池，只有方法上可以指定線程池
+    -->
+    <test name="demo1">
+        <classes>
+            <class name="com.esb.testng.multiThread.MultiThreadOnXml"></class>
+            <class name="com.esb.testng.BasicAnnotation"></class>
+            <class name="com.esb.testng.multiThread.MultiThreadOnXml"></class>
+        </classes>
+    </test>
+    <test name="demo2">
+        <classes>
+            <class name="com.esb.testng.BasicAnnotation"></class>
+        </classes>
+    </test>
+
+</suite>

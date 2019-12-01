@@ -1,0 +1,22 @@
+[
+  {
+    "description": "模擬一個帶header訊息的post請求",
+    "request": {
+      "uri": "/post/with/headers",
+      "method": "post",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "json": {
+        "name": "yelena",
+        "sex": "woman"
+      }
+    },
+    "response": {
+      "json": {
+       "danniel": "success",
+        "status": "1"
+      }
+    }
+  }
+]
