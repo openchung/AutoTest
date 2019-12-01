@@ -32,7 +32,7 @@
       <module name="SpringbootDemo" options="-parameters" />
       <module name="SpringbootMybatisDemoWithLogback" options="-parameters" />
       <module name="SpringbootPg" options="-parameters" />
-      <module name="SpringbootPgTestCases" options="-parameters -extdirs D:\TestNG\AutoTest\SpringbootPgTestCases/lib" />
+      <module name="SpringbootPgTestCases" options="-parameters -extdirs D:\TestNG\Git\AutoTest\SpringbootPgTestCases/lib" />
     </option>
   </component>
 </project>
